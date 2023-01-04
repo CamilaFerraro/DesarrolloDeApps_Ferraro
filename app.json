@@ -15,7 +15,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/af325f62-9005-4c9b-98ea-33bdd82d9f5e"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -36,12 +37,7 @@
         "CAMERA",
         "ACCESS_FINE_LOCATION",
         "WRITE_EXTERNAL_STORAGE"
-      ],
-      "config": {
-        "googleMaps": {
-          "apiKey": "AIzaSyBPQ2T1C1zkLt0zsSHy_T93hqiU5iVUNp4"
-        }
-      }
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -51,6 +47,9 @@
         "projectId": "af325f62-9005-4c9b-98ea-33bdd82d9f5e"
       }
     },
-    "owner": "camilaferraro"
+    "owner": "camilaferraro",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
 }
